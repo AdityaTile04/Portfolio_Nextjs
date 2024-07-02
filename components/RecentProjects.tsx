@@ -4,7 +4,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import { useEffect, useState } from "react";
-import Image from 'next/image'; 
+import Image from "next/image";
 
 const RecentProjects = () => {
   const [isClient, setIsClient] = useState(false);
@@ -16,7 +16,7 @@ const RecentProjects = () => {
   return (
     <div className="py-20 pt-20" id="projects">
       <h1 className="heading">
-        A small selection of{" "}
+        A small selection of
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
