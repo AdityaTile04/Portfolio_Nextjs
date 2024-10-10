@@ -1,5 +1,6 @@
 import Approach from "@/components/Approach";
-import Client from "@/components/Client";
+// import Client from "@/components/Client";
+import TechStack from "@/components/TechStack";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Grid from "@/components/Grid";
@@ -16,7 +17,8 @@ export default function Home() {
         <Hero />
         <Grid />
         <RecentProjects />
-        <Client />
+        <TechStack />
+        {/* <Client /> */}
         <Experience />
         <Approach />
         <Footer />
