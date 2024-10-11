@@ -1,10 +1,9 @@
 import { IconCloud } from "@/components/ui/Stack";
 import { div } from "three/examples/jsm/nodes/Nodes.js";
 
-const slugs = [
+const slugs: string[] = [
   "typescript",
   "javascript",
-  "dart",
   "java",
   "react",
   "flutter",
@@ -29,9 +28,8 @@ const slugs = [
   "github",
   "gitlab",
   "visualstudiocode",
-  "androidstudio",
-  "sonarqube",
   "figma",
+  "mongodb",
 ];
 
 export default function IconCloudDemo() {
@@ -43,7 +41,6 @@ export default function IconCloudDemo() {
           used by me
         </h1>
 
-        {/* Icon Cloud container with increased size */}
         <div className="relative mx-auto flex w-full max-w-2xl items-center justify-center overflow-hidden rounded-lg p-10 sm:p-20">
           <IconCloud iconSlugs={slugs} />
         </div>
