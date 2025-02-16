@@ -75,7 +75,13 @@ export const projects = [
     title: "Blog App",
     des: "Experience seamless blogging with this dynamic MERN-based blog app. Effortlessly create, share, and explore engaging content with a sleek, user-friendly interface designed for all your storytelling needs.s.",
     img: "/blog.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    iconLists: [
+      "/mongo.svg",
+      "/react.svg",
+      "/node.svg",
+      "/express.svg",
+      "/tail.svg",
+    ],
     link: "https://mern-blog-6ebp.onrender.com/",
   },
   {
@@ -84,7 +90,13 @@ export const projects = [
     des: "ChatVerse is a real-time MERN chat app with Socket.IO and Cloudinary, offering seamless messaging and an interactive user experience",
 
     img: "/chatverse.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
+    iconLists: [
+      "/mongo.svg",
+      "/react.svg",
+      "/node.svg",
+      "/express.svg",
+      "/tail.svg",
+    ],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
   // {
