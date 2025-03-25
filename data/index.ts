@@ -186,8 +186,8 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Fullstack Web Developer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Fullstack Intern @Shivkalp IT Services",
+    desc: "At Shivkalp IT Services, I developed auto-mart.co.in, an E-commerce platform for automobiles using React.js and MySQL, optimizing performance with efficient data modeling, enhancing user experience through a sleek design, and delivering a fast, scalable solution.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
