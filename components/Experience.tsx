@@ -21,24 +21,28 @@ const Experience = () => {
                 background: "rgb(4,7,29)",
                 backgroundColor:
                   "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
-
                 borderRadius: `calc(1.75rem * 0.96)`,
               }}
-              className="text-black dark:text-white border-neutral-200 dark:border-slate-800"
+              className="text-black dark:text-white border-neutral-200 dark:border-slate-800 max-w-[700px] min-h-[350px]"
             >
-              <div className="flex lg:flex-row flex-col lg:items-center p-3 py-6 md:p-5 lg:p-10 gap-2">
-                <Image
-                  src={card.thumbnail}
-                  alt={card.title}
-                  className="lg:w-32 md:w-20 w-16"
-                  width={128}
-                  height={128}
-                />
-                <div className="lg:ms-5">
-                  <h1 className="text-start text-xl md:text-2xl font-bold">
+              <div className="flex flex-col lg:flex-row items-center lg:items-start p-6 gap-6">
+                {/* Image Section */}
+                <div className="flex-shrink-0">
+                  <Image
+                    src={card.thumbnail}
+                    alt={card.title}
+                    className="w-24 h-24 object-contain"
+                    width={96}
+                    height={96}
+                  />
+                </div>
+
+                {/* Content Section */}
+                <div className="flex flex-col justify-center lg:text-left text-center">
+                  <h1 className="text-2xl md:text-2xl font-bold leading-tight mb-3">
                     {card.title}
                   </h1>
-                  <p className="text-start text-white-100 mt-3 font-semibold">
+                  <p className="text-white-100 text-sm md:text-base font-semibold leading-relaxed">
                     {card.desc}
                   </p>
                 </div>
