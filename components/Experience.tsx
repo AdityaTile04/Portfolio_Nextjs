@@ -37,7 +37,6 @@ const Experience = () => {
                   />
                 </div>
 
-                {/* Content Section */}
                 <div className="flex flex-col justify-center lg:text-left text-center">
                   <h1 className="text-2xl md:text-2xl font-bold leading-tight mb-3">
                     {card.title}
