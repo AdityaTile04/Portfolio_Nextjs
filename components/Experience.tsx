@@ -9,7 +9,6 @@ const Experience = () => {
       <h1 className="heading text-center">
         My <span className="text-purple">work experience</span>
       </h1>
-
       <div className="mt-12 flex justify-center">
         <div className="grid lg:grid-cols-1 grid-cols-1 gap-10">
           {workExperience.map((card) => (
