@@ -5,6 +5,7 @@ import { projects } from "@/data";
 import { PinContainer } from "./ui/3d-pin";
 import { useEffect, useState } from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 const RecentProjects = () => {
   const [isClient, setIsClient] = useState(false);
@@ -26,7 +27,7 @@ const RecentProjects = () => {
             key={item.id}
           >
             {isClient && (
-              <PinContainer title="Visit">
+              <PinContainer title="Visit" href={item.link}>
                 <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                   <div
                     className="relative w-full h-full overflow-hidden lg:rounded-3xl"
